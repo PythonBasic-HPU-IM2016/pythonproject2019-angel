@@ -19,14 +19,14 @@ badtimer=100
 badtimer1=0
 badguys=[[640,100]]
 pygame.mixer.init()
- 
+
 
 player = pygame.image.load("resources/images/dude.png")
 grass = pygame.image.load("resources/images/grass.png")
 castle = pygame.image.load("resources/images/castle.png")
-arrow = pygame.image.load("resources/imagesllet.png")
+arrow = pygame.image.load("resources/images/bullet.png")
 #加载獾图片
-badguyimg1 = pygame.image.load("resources/resources/images/badguy.png")
+badguyimg1 = pygame.image.load("resources/images/badguy.png")
 badguyimg=badguyimg1
 
 running = 1
